@@ -1,0 +1,17 @@
+.footerMain {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.footerMain img {
+  width: 200px;
+}
+
+.footerInner {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}

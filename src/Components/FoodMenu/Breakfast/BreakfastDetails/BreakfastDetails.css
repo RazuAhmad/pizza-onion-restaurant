@@ -1,0 +1,17 @@
+.breakfastDetails {
+  /* border-radius: 12px; */
+  padding: 15px;
+}
+
+.breakfastDetails:hover {
+  position: relative;
+  /* top: -10px;
+  left: -20px; */
+  width: 98%;
+  height: auto;
+  display: block;
+  z-index: 999;
+  border-radius: 9px;
+  border: 3px solid white;
+  box-shadow: 3px 4px 5px gray;
+}

@@ -1,0 +1,20 @@
+.foodCategoryNavBar {
+  display: flex;
+  margin-top: 195px;
+  margin-bottom: 100px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.foodCategoryNavBar Link {
+  /* display: block; */
+  /* margin-left: 200px; */
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 688px) {
+  .foodCategoryNavBar {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
